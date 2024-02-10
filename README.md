@@ -1,48 +1,67 @@
 # Ignite Shop 2.0
 
-#### Loja virtual desenvolvida com Next.js e Stripe.
+## English
 
-![Capa](/src//assets//capa.png)
+### What is the project?
 
-## 🧑🏻‍💻 Para testar
+4º Challenge of Ignite @Rocketseat. It is an E-Commerce project made with Next to improve my development with Next itself (SSR/SSG), Stripe was also used (Stripe is an infrastructure of payment products for the internet) to make the payment of the order creating a route inside the pages, for styling the project Stitches.Js was used, because integrates better with SSR than Styled Components.
 
-#### Acesse o [link do deploy](), adicione produtos no carrinho e finalize a compra utilizando os seguintes dados no pagamento:
+### Main technologies
 
-```
-Número do cartão: 4242 4242 4242 4242
-Validade: qualquer data futura no formato > 12/34
-CVV: qualquer combinação de 3 digitos > 123
-```
-
-## 📑 Sobre
-
-> Projeto do 4º módulo do curso de especialização Ignite: **Fundamentos de Next.js** .
-
-Esta aplicação simula uma loja de produtos e utiliza o Stripe para gerenciamento produtos e pedidos, Stitches e Radix-UI para estilização, Axios para consumo dos dados implementados no servidor do Next, e outras bibliotecas auxiliares para melhorar a experiência do usuário.
-
-- **Ignite Shop** inicia o desenvolvimento do projeto implementando as funcionalidades deste [layout](<https://www.figma.com/file/MjcXVLgQxiPU8s2LuKwstR/Ignite-Shop-(Copy)>), sendo elas:
-
-  - Carrossel de produtos na página principal
-  - Página de detalhes do produto, sendo possível finalizar a compra
-  - Página de Sucesso
-
-- **Ignite Shop 2.0** é o desafio para implementar as funcionalidades deste [layout](<https://www.figma.com/file/DdDCcDXklWykjkW3AkL6UZ/Ignite-Shop-2.0-(Copy)?node-id=0%3A1>).
-  - Carrinho: adiciona layout e funcionalidades
-  - Atualiza a página de Sucesso
-  - Implementa cabeçalhos diferentes entre páginas
-
-## 🧠 Aprendizados
-
-- Conceitos de Server-Side Renderig (SSR) e Static Site Generation (SSG)
-- Conceitos fundamentais do Next.js e Per-Page Layout
-- Utilização da biblioteca Stripe
-
-## 🛠 Tecnologias utilizadas
-
-- Typescript
-- Next.js
+- React
+- Next
 - Stripe
-- Stitches
-- React-toastify
 - Axios
-- Keen-slider
+- Stitches Js
+- Radix UI (Dialog)
+- Keen Slider
+- Phosphor React
+
+### How to use?
+
+After that you create your Stripe account and create yours products, you must creat a .env.local file inside project root and create 3 vars
+
+```.env
+NEXT_URL="http://localhost:3000"
+
+STRIPE_PUBLIC_KEY= Your PK here
+STRIPE_SECRET_KEY= Your SK here
+```
+
+## Português
+
+### O que é o projeto?
+
+4º Desafio do Ignite @Rocketseat. É um projeto de um E-Commerce feito com Next para aprimorar o meu desenvolvimento com o proprio Next (SSR/SSG), também foi utilizado o Stripe (o Stripe é uma infraestrutura de produtos pagamentos para a internet) para realizar o pagamento do pedido criando uma rota dentro de pages, para a estilização do projeto foi usado o Stitches.Js, pois ele integra melhor com o SSR do que o Styled Components.
+
+### Principais technologias
+
+- React
+- Next
+- Stripe
+- Axios
+- Stitches Js
+- Radix UI (Dialog)
+- Keen Slider
+- Phosphor React
+
+### Como usar?
+
+Depois de criar sua conta na Stripe e criar os seus produtos, você deve criar na raiz do projeto o arquivo .env.local e criar 3 variáveis nele
+
+```.env
+NEXT_URL="http://localhost:3000"
+
+STRIPE_PUBLIC_KEY= Sua PK aqui
+STRIPE_SECRET_KEY= Sua SK aqui
+```
+
+### Project Images
+
+<div>
+  <img src="./src/assets/image0.png" width="1000px" />
+  <img src="./src/assets/image1.png" width="1000px" />
+  <img src="./src/assets/image2.png" width="1000px" />
+  <img src="./src/assets/image3.png" width="1000px" />
+  <img src="./src/assets/image4.png" />
+</div>
